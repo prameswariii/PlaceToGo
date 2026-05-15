@@ -27,6 +27,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    sourceSets {
+    main {
+        manifest.srcFile 'main/AndroidManifest.xml'
+        java.srcDirs = ['main/java']
+        res.srcDirs = ['main/res']
+    }
+}
+
+    
 }
 
 dependencies {
