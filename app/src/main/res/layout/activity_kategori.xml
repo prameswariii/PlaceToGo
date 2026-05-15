@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvKota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Kategori"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <Button
+            android:id="@+id/btnPusatPerbelanjaan"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Pusat Perbelanjaan"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_primary" />
+
+        <Button
+            android:id="@+id/btnKuliner"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Kuliner"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnCafe"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Cafe"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnWisata"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Wisata"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnPasar"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Pasar"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
