@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032500539049",
+    "project_id": "place-to-go-fc94b",
+    "storage_bucket": "place-to-go-fc94b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032500539049:android:2896d04c4a1a00b7e9c3b8",
+        "android_client_info": {
+          "package_name": "id.prames.placetogo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNlyoE77YXOKimOOV1duy0YfSYzHm4jGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
