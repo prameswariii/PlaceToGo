@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/bg_app">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place To Go"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temukan rekomendasi tempat menarik di Jakarta dan Bogor"
+        android:textSize="15sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnJakarta"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Jakarta"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_button_primary" />
+
+    <Button
+        android:id="@+id/btnBogor"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Bogor"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_button_primary"
+        android:layout_marginTop="14dp" />
+
+</LinearLayout>
